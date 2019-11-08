@@ -1,0 +1,12 @@
+server:
+  port: 8802
+  servlet:
+     context-path: /api/v1
+  
+spring:
+   application:
+      name: user-center
+      
+swagger:
+   title: 用户中心模块
+   package: com.jinzhun.user.controller
